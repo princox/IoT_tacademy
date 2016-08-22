@@ -15,7 +15,7 @@ float temp, humidity;
 if ((error = dht11.read(humidity, temp)) == 0) {
   Serial.print("temp: ");
   Serial.print(temp);
-  Serial.print("humidity:");
+  Serial.print(" humidity: ");
   Serial.println(humidity);
 }
 }
