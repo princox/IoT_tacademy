@@ -1,0 +1,1 @@
+적외선 센서에 5V, VCC, digital input, gnd를 넣어서 이용
