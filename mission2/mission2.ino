@@ -25,11 +25,9 @@ int light = analogRead(2);
 digitalWrite(2, HIGH);
 delay(1000);
 digitalWrite(2, LOW);
-delay(1000);
 digitalWrite(3, HIGH);
 delay(1000);
 digitalWrite(3, LOW);
-delay(1000);
 Serial.print("sound : "); Serial.print(MICsound);
 Serial.print(" / human : "); if(humanCo==1){Serial.print("detected");}else{Serial.print("not detected");}
 Serial.print(" / humidity: "); Serial.print(humidity);
@@ -38,5 +36,5 @@ Serial.print(" / light: "); Serial.print(light);
 Serial.println();
 
 
-delay(150);
+delay(80);
 }
